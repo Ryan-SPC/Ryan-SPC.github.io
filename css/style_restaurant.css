@@ -1,81 +1,41 @@
-@font-face {
-  font-family: 'Oswald';
-  src: url('../font/Oswald/Oswald-VariableFont_wght.ttf') format("truetype");     
-}
-
-@font-face {
-  font-family: 'DFT';
-  src: url('../font/DFT/DFT_R8.ttc') format("truetype");     
-}
-
-@font-face {
-  font-family: 'Noto';
-  src: url('../font/Noto/NotoSerifCJKtc-Regular.otf') format("opentype");     
-}
-body{
-  font-family: "DFT" ;
-  margin: 0px 10%;
-
-}
-.navbar-custom {
-  /* background-color: #DB0007; */
-  background-color: #DB0007;
-}
-.navbar-custom .nav-link{
-  font-size: 20px;
-  color: gold;
-}
-.navbar-custom .nav-item.active .nav-link, .navbar-custom .nav-item:hover .nav-link {
-  color: #ffffff;
-}
-.linkLogo{
-  margin-top: 140px;
-  margin-left: 270px;
-}
-
-.linkLogo img{
-  margin: auto 5px;
-}
-.carousel-item{
-  margin-left: 12.7%;  
-}
-
-#main-navbar{
-  font-weight: bold;
-}
-
-#banner{
-  margin: 20px 0px;
-}
-
-#banner img{
-  width: 75%;
-  height: 46%;
-}
-
-#List img{
-  width: 500px;
-  height: 300px;
-  margin: 0px 20px;
-}
-
-.chap{
-  margin: 10px 40px;
-}
-
-.topic{
-  font-size: 35px;
-  font-weight: bold;
-}
-.content{
-  line-height: 40px;
-  margin-top: 10px;
-}
-.award{
-  margin-top: 10px;
-  font-size: 20px;
-}
-.background{
+.restaurant_describe {
+  margin-top: 105px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-image: url("../img/background2.png");
 }
 
+.restaurant_describe img {
+  width: 500px;
+  height: 300px;
+}
+
+.title_line {
+  border-color:#DCDCDC;
+}
+
+@media (max-width:992px) {
+  .restaurant_describe img {
+    width: 400px;
+  height: 240px;
+  }
+
+  .story {
+    font-size: 14px;
+  }
+  
+  .story span {
+    font-style: italic;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width:768px) {
+  .restaurant_describe img {
+    width: 500px;
+    height: 300px;
+  }
+}

@@ -1,63 +1,33 @@
-@font-face {
-    font-family: 'Oswald';
-    src: url('../font/Oswald/Oswald-VariableFont_wght.ttf') format("truetype");     
-  }
-  
-  @font-face {
-    font-family: 'DFT';
-    src: url('../font/DFT/DFT_R8.ttc') format("truetype");     
-  }
-  
-  @font-face {
-    font-family: 'Noto';
-    src: url('../font/Noto/NotoSerifCJKtc-Regular.otf') format("opentype");     
-  }
-  
-  body{
-    font-family: "DFT" ;
-    margin: 0px 10%;
-  
-  }
-  .navbar-custom {
-    /* background-color: #DB0007; */
-    background-color: #DB0007;
-  }
-  .navbar-custom .nav-link{
-    font-size: 20px;
-    color: gold;
-  }
-  .navbar-custom .nav-item.active .nav-link, .navbar-custom .nav-item:hover .nav-link {
-    color: #ffffff;
-  }
-  .linkLogo{
-    margin-top: 140px;
-    margin-left: 270px;
-  }
-  
-  .linkLogo img{
-    margin: auto 5px;
-  }
-  .carousel-item{
-    margin-left: 12.7%;  
-  }
-  
-  #main-navbar{
-    font-weight: bold;
-  }
-  
- .tag{
-     font-size: 20px;
-     margin-left: 30%;
- }
- .topic{
-    font-size: 50px;
-     margin: auto auto;
- }
+.menu {
+  margin-top: 105px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url("../img/background2.png");
+}
 
- .plus{
-    position: relative;
-    top: 150px;
- }
-  
-  
+.tag{
+  font-size: 20px;
+}
+
+.topic{
+  font-size: 50px;
+}
+
+.plus{
+  position: relative;
+  top: 80px;
+}
+
+@media (max-width:768px) {
+  .topic{
+    font-size: 40px;
+  }
+  .tag {
+    font-size: 16px;
+  }
+}
+
+.hidden {
+  display: none;
+}
   
